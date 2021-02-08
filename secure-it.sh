@@ -1,3 +1,6 @@
+sudo apt --quiet update
+sudo apt --quiet upgrade
+
 cd ~
 sudo ufw enable
 sudo apt-get remove mono-runtime-common
@@ -10,3 +13,6 @@ cp -v /etc/pulse/client.conf ~/.config/pulse
 echo "enable-shm = no" >> client.conf
 
 sudo apt-get remove "openjdk*"
+
+sudo apt --quiet update
+sudo apt --quiet upgrade
