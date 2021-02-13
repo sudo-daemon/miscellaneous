@@ -1,2 +1,0 @@
-I only create free, completely modifiable and reproducible software on a personal level.
-That being said, the scripts in this repository in particular are scripts that are largely personal to my uses, and as such you probably won't find much to be of interest here. 
