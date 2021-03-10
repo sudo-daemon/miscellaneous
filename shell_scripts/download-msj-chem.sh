@@ -1,6 +1,5 @@
 # Downloads all MSJ chem videos and organizes them into topic-wise folders
 
-
 # !/usr/bin/env bash 
 
 mkdir msj-chem-videos
