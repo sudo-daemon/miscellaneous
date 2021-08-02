@@ -18,9 +18,5 @@ brew install --cask atom
 brew install --cask microsoft-powerpoint
 brew install --cask microsoft-excel
 brew install --cask microsoft-word
-brew install --cask shotcut
 brew install --cask lulu
-brew install --cask virtualbox
-brew install --cask obs
 brew install --cask protonvpn
-brew install youtube-dl
