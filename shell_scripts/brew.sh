@@ -15,8 +15,14 @@ brew install --cask firefox
 brew install --cask brave-browser
 # brew install --cask microsoft-teams
 brew install --cask atom
-brew install --cask microsoft-powerpoint
-brew install --cask microsoft-excel
-brew install --cask microsoft-word
+
+read -p 'Do you want to install the Microsoft Suite? (y/n):' microPref
+
+case "$microPref" in 
+  y|Y ) brew install --cask microsoft-powerpoint; brew install --cask microsoft-excel; brew install --cask microsoft-word;;
+  n|N ) echo "Microsoft Suite not installed. ";;
+  * ) echo "invalid";;
+esac
+
 brew install --cask lulu
 brew install --cask protonvpn
